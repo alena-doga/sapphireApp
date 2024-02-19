@@ -21,6 +21,7 @@ class ViewFactory: NSObject {
         bind(view: controller, presenter: presenter)
         return controller
     }
+
 }
 
 

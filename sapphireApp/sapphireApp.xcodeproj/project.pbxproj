@@ -21,6 +21,7 @@
 		F7864F882B83B5FF0059F4E9 /* RootProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7864F842B83B5FF0059F4E9 /* RootProtocols.swift */; };
 		F7864F892B83B5FF0059F4E9 /* RootPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7864F852B83B5FF0059F4E9 /* RootPresenter.swift */; };
 		F7864F8E2B83B6820059F4E9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F7864F8D2B83B6820059F4E9 /* SnapKit */; };
+		F7864F922B83D9160059F4E9 /* Tabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7864F912B83D9160059F4E9 /* Tabbar.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		F7864F832B83B5FF0059F4E9 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		F7864F842B83B5FF0059F4E9 /* RootProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootProtocols.swift; sourceTree = "<group>"; };
 		F7864F852B83B5FF0059F4E9 /* RootPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPresenter.swift; sourceTree = "<group>"; };
+		F7864F912B83D9160059F4E9 /* Tabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tabbar.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,9 +147,9 @@
 		F7864F822B83B5FF0059F4E9 /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				F7864F832B83B5FF0059F4E9 /* RootViewController.swift */,
 				F7864F842B83B5FF0059F4E9 /* RootProtocols.swift */,
 				F7864F852B83B5FF0059F4E9 /* RootPresenter.swift */,
+				F7864F832B83B5FF0059F4E9 /* RootViewController.swift */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -165,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				F7864F622B83B5890059F4E9 /* Main.storyboard */,
+				F7864F912B83D9160059F4E9 /* Tabbar.storyboard */,
 				F7864F672B83B58A0059F4E9 /* LaunchScreen.storyboard */,
 			);
 			name = Storyboards;
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7864F922B83D9160059F4E9 /* Tabbar.storyboard in Resources */,
 				F7864F692B83B58A0059F4E9 /* LaunchScreen.storyboard in Resources */,
 				F7864F662B83B58A0059F4E9 /* Assets.xcassets in Resources */,
 				F7864F642B83B5890059F4E9 /* Main.storyboard in Resources */,

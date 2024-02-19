@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 extension String {
     
@@ -32,4 +33,8 @@ extension String {
     func localizeWithFormat(arguments: CVarArg...) -> String {
         return String(format: self.localized(), arguments: arguments)
     }
+}
+
+extension UIColor {
+    static let greenMain = UIColor(red: 13/255.0, green: 84/255.0, blue: 74/255.0, alpha: 1.0)
 }
